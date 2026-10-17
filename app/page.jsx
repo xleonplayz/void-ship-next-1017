@@ -1,0 +1,1 @@
+import Counter from './counter';export default function Page(){return <><p>RELEASE 1 · STATIC ROUTE</p><h1>Ideas worth keeping.</h1><p>A small editorial workspace built with the App Router.</p><Counter/></>}

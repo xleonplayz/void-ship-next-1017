@@ -1,0 +1,1 @@
+export const dynamic='force-dynamic';export default function Page(){return <><h1>Live server page</h1><p id="clock">{new Date().toISOString()}</p><p>Environment: {process.env.SHIP_LABEL||'not set'}</p><p>Secret configured: {process.env.SHIP_SECRET?'yes':'no'}</p></>}

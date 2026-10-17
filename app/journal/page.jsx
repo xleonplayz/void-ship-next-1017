@@ -1,0 +1,1 @@
+export default function Page(){return <><h1>Journal</h1><p>Static generated editorial content.</p></>}

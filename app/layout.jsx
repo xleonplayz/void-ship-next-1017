@@ -1,0 +1,1 @@
+import './style.css';export const metadata={title:'Northstar Notes'};export default function Layout({children}){return <html lang="en"><body><nav><a href="/">Northstar</a> · <a href="/live">Live</a> · <a href="/journal">Journal</a></nav><main>{children}</main></body></html>}
